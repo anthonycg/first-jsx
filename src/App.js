@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Person from './components/Person'
 function App() {
   return (
     <div className="App">
       <div className="App-header">
         <h1>LA LA Land</h1>
       </div>
+      <Person />
       <h1>Hello Dojo!</h1>
       <h2>Things I need to do:</h2>
       <ul>
